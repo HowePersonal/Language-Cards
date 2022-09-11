@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Language Cards</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <script src="homepage.js" defer></script>
+        <script scr="database.js" defer></script>
+    </head>
+
+    <body>
+        <div class="nav-bar">
+            <a id="btn-homepage" href="./">Language Cards</a>
+            <div class="login">
+                <a id="btn-login" href="#">Login</a>
+                <a id="btn-reg" href="#">Register</a>
+            </div>
+            
+            
+        </div>
+    </body>
+
+    <!-- Modal -->
+    <div class="bg-modal">
+        <div class="modal-contents">
+            <div class="close">+</div>
+            <form action="/auth" method="post">
+                <input type="text" placeholder="Username" id="username" required>
+                <input type="text" placeholder="Password" id="password" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+
+    </div>
+</html>
